@@ -1,0 +1,16 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/language": "file:../nodejs-language/google-cloud-language-4.2.8.tgz",
+    "google-auth-library": "file:../google-auth-library-nodejs/google-auth-library-7.5.0.tgz",
+    "google-gax": "file:../gax-nodejs/google-gax-2.23.0.tgz"
+  }
+}
