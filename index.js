@@ -1,8 +1,7 @@
 async function main() { 
     const language = require('@google-cloud/language'); 
 
-    // either pass {apiKey: 'api key value'} or set GOOGLE_API_KEY env var to the key value.
-    const client = new language.LanguageServiceClient();
+    const client = new language.LanguageServiceClient({'apiKey': '<FILL IN THE API KEY>'});
     
     const text = 'Hello, World'; 
     const document = { type: 'PLAIN_TEXT', content: text, }; 
