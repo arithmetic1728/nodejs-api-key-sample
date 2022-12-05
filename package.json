@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/language": "^5.1.0",
-    "google-auth-library": "file:../google-auth-library-nodejs"
+    "@google-cloud/language": "^5.1.0"
   }
 }
